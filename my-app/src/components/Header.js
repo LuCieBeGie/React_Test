@@ -5,13 +5,15 @@ import { BiUserPin } from 'react-icons/bi'
 import { GiSkills } from 'react-icons/gi'
 import { ImEnvelop } from 'react-icons/im'
 import './Header.css';
+import { useState } from "react";
 
 function Header() {
+
     return (<>
         <nav className="navbar navbar-inverse sticky-top">
             <div className="container-fluid" >
                 <Link className="navbar-brand">Welcome <GrReactjs /></Link>
-                <ul className="nav navbar-nav navbar-right">
+                <ul className="nav navbar-nav navbar-right" >
                     <li className="active">
                         <Link className="nav-link" to="/React_Test" >
                             <GoHome size="20px" />
@@ -34,7 +36,7 @@ function Header() {
                     </li>
                     <li>
                         <Link to="/React_Test/skills">
-                            <GiSkills size='20px'/>
+                            <GiSkills size='20px' />
                         </Link>
                     </li>
                 </ul>
