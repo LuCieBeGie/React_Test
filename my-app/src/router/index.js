@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Header from "../components/Header"
-import About from "../pages/About/About"
 import Contacts from "../pages/Contacts/Contacts"
 import Projects from "../pages/Projects/Projects"
 import Skills from "../pages/Skills/Skills"
@@ -12,7 +11,6 @@ function Router() {
             <Routes>
                 <Route path='/React_Test' element={<Header />}>
                     <Route path='/React_Test' element={<Home />} />
-                    <Route path='/React_Test/about' element={<About />} />
                     <Route path='/React_Test/contacts' element={<Contacts />} />
                     <Route path='/React_Test/projects' element={<Projects />} />
                     <Route path='/React_Test/skills' element={<Skills />} />

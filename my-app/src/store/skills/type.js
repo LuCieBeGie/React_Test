@@ -1,0 +1,1 @@
+export const GET_MY_SKILLS = 'get my skills';
