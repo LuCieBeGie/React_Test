@@ -5,7 +5,10 @@ function Skills() {
     const mySkills = useSelector(state => state.skillState)
     console.log(mySkills);
     return (<>
-        <h1>Skills</h1>
+    <div className="background">
+        <button>Technical</button>
+        <button>Personal</button>
+    </div>
     </>)
 }
 
