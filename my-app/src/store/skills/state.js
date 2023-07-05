@@ -9,15 +9,15 @@ export const skillState = {
             { id: 6, url: '../../assets/images/redux_react.png', title: 'Redux' },
             { id: 7, url: '../../assets/images/bootstrap.png', title: 'Bootstrap' }
         ],
-    // mySoftSkills:
-    //     [
-    //         'critical thinking',
-    //         'analysis',
-    //         'problem solving',
-    //         'self-management',
-    //         'emotional intelligence',
-    //         'adaptability',
-    //         'creativity'
-    //     ]
+    mySoftSkills:
+        [
+            'critical thinking',
+            'analysis',
+            'problem solving',
+            'self-management',
+            'emotional intelligence',
+            'adaptability',
+            'creativity'
+        ]
 
 }
